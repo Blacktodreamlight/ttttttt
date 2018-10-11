@@ -13,17 +13,26 @@
     <splitter split-orientation="vertical" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="www.dhgz.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="www.dhgz.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/jQuery Mobile/第四周/综合作业/www.dhgz.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="262">
-                  <caret line="813" column="17" selection-start-line="813" selection-start-column="17" selection-end-line="813" selection-end-column="17" />
+                <state relative-caret-position="697">
+                  <caret line="818" column="7" lean-forward="true" selection-start-line="818" selection-start-column="7" selection-end-line="818" selection-end-column="7" />
                   <folding>
                     <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#img#0;n#div#1;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="文字内容.txt" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/jQuery Mobile/第四周/菜鸟教程首页/文字内容.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="135">
+                  <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
                 </state>
               </provider>
             </entry>
@@ -75,6 +84,7 @@
         <option value="$PROJECT_DIR$/jQuery Mobile/麦包包/index.html" />
         <option value="$PROJECT_DIR$/jQuery Mobile/第四周/综合作业/www.dhgz.html" />
         <option value="$PROJECT_DIR$/jQuery Mobile/第四周/综合作业/css/style.css" />
+        <option value="$PROJECT_DIR$/jQuery Mobile/第四周/菜鸟教程首页/文字内容.txt" />
       </list>
     </option>
   </component>
@@ -114,19 +124,6 @@
               <item name="dgpt" type="b2602c69:ProjectViewProjectNode" />
               <item name="dgpt" type="462c0819:PsiDirectoryNode" />
               <item name="jQuery Mobile" type="462c0819:PsiDirectoryNode" />
-              <item name="第二周" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dgpt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dgpt" type="462c0819:PsiDirectoryNode" />
-              <item name="jQuery Mobile" type="462c0819:PsiDirectoryNode" />
-              <item name="第二周" type="462c0819:PsiDirectoryNode" />
-              <item name="马蜂窝广告栏" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dgpt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dgpt" type="462c0819:PsiDirectoryNode" />
-              <item name="jQuery Mobile" type="462c0819:PsiDirectoryNode" />
               <item name="第四周" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -134,15 +131,7 @@
               <item name="dgpt" type="462c0819:PsiDirectoryNode" />
               <item name="jQuery Mobile" type="462c0819:PsiDirectoryNode" />
               <item name="第四周" type="462c0819:PsiDirectoryNode" />
-              <item name="综合作业" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dgpt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dgpt" type="462c0819:PsiDirectoryNode" />
-              <item name="jQuery Mobile" type="462c0819:PsiDirectoryNode" />
-              <item name="第四周" type="462c0819:PsiDirectoryNode" />
-              <item name="综合作业" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="菜鸟教程首页" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -196,11 +185,12 @@
       <workItem from="1538233339656" duration="1221000" />
       <workItem from="1538234976119" duration="7051000" />
       <workItem from="1538285331817" duration="10000" />
+      <workItem from="1539274714211" duration="39000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27312000" />
+    <option name="totallyTimeSpent" value="27351000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="0" width="960" height="1040" extended-state="0" />
@@ -234,6 +224,26 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/jQuery Mobile/第四周/综合作业/www.dhgz.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12195">
+          <caret line="813" column="17" selection-start-line="813" selection-start-column="17" selection-end-line="813" selection-end-column="17" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery Mobile/第四周/综合作业/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jQuery Mobile/第四周/综合作业/www.dhgz.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12195">
@@ -358,10 +368,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery Mobile/第四周/综合作业/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jQuery Mobile/第四周/综合作业/www.dhgz.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="813" column="17" selection-start-line="813" selection-start-column="17" selection-end-line="813" selection-end-column="17" />
+        <state relative-caret-position="697">
+          <caret line="818" column="7" lean-forward="true" selection-start-line="818" selection-start-column="7" selection-end-line="818" selection-end-column="7" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -371,10 +388,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery Mobile/第四周/综合作业/css/style.css">
+    <entry file="file://$PROJECT_DIR$/jQuery Mobile/第四周/菜鸟教程首页/文字内容.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
+        <state relative-caret-position="135">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
