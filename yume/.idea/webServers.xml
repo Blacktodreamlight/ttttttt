@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="0cb4f1e4-6e38-48b9-b3b7-3f7e8cc0e2aa" name="localhost" url="http://www.yume.com:8009">
+        <fileTransfer port="0" mountedRoot="C:\" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

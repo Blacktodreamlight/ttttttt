@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>新华网新闻页面</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        *{
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+            list-style: none;
+        }
+        body {
+            background-color: #eee;
+        }
+        article{
+            background-color: #f9f8f8;
+        }
+        header{
+            background-color: #587ca9;
+            color: white;
+        }
+        header a{
+            display: inline-block;
+            height: 36px;
+            line-height: 36px;
+            text-align: center;
+            width: 60px;
+            padding: 0 10px;
+            font-size: 0.8em;
+            font-weight: bold;
+
+        }
+        header a:link,header a:visited{
+            color: snow;
+        }
+        section h1,section .time
+        {
+            text-align: center;
+        }
+        section .time
+        {
+            font-size: 0.8em;
+            color: gray;
+        }
+        .home{
+            background-color: #32528d;
+
+        }
+        .oth
+        {
+            position: relative;
+            background-image: linear-gradient(to right,#587ca9,#32528d);
+        }
+        .oth::after{
+            content: "";
+            position: absolute;
+            border:18px solid transparent;
+            border-left-color: #32528d;
+            right: -36px;
+            z-index: 2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a class="home" href="#">首页</a>
+        <a class="oth" href="#">新闻中心</a>
+        <a class="oth" href="#">正文</a>
+    </header>
+<!--正文-->
+<article>
+    <section>
+        <h1> 发展信息经济 促进社会转型 </h1>
+        <div class="time">
+            <span>2014年06月08日14:06:00</span>
+            <span>来源：<a href="">新华网</a></span>
+        </div>
+    </section>
+    <div id="ydstart">阅读全文</div>
+    <section id="contentblock">
+        <h2>信息经济及其重要特征</h2>
+        <p>信息经济是指由信息技术及其网络向经济、社会、生活各领域渗透形成的以信息产业为主导，以信息产品生产和信息服务为主体的新经济模式。它包括集成电路、电子元件、通信、计算机以及信息感测设备制造业和信息通信网络服务、数据平台服务、各类应用服务和软件服务业。信息经济最重要成分是服务。随着云计算、物联网、3D技术的进步，信息产品也越来越融入信息服务之中，“软件即服务”、“平台即服务”、“制造即服务”、“应用即服务”。</p>
+        <h2>必须实现三个创新</h2>
+        <p>信息经济要全面发展，必须重视三个方面的创新。第一是理论要创新。要努力突破传统工业经济理论，在信息生产力基础上构建信息时代均衡发展的新经济理论。第二是社会治理要创新。要超越政府调控和市场调节两元对立的老路，走出一条发挥“市场决定作用、政府引导作用、社会监督作用”的三元协同治理的新路。第三是企业经营要创新。</p>
+    </section>
+    <footer>
+        <nav>
+            <a href="#" id="xinhua">新华网手机版</a>
+            <div>
+                <a href="#" class="normal">导航</a>
+                <a href="#" class="normal">联系我们</a>
+                <a href="#" class="top"></a>
+            </div>
+        </nav>
+        <div class="copyright">Copyright &copy; 2014 XINHUANET</div>
+    </footer>
+</article>
+</body>
+</html>

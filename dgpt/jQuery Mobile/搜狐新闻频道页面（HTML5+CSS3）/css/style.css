@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body,p,h1,h2,h3,h4,h5,h6{margin:0;}
+div
+{
+    box-sizing: border-box;
+}
+.logo img
+{
+    margin-top: 5px;
+    width: 100px;
+    text-align:center;
+    vertical-align: middle;
+}
+header{
+    padding: 2px;
+    background: RGB(252,208,7);
+    box-shadow: 5px 1px 1px  rgba(0,0,0,0.7);
+}
+.top
+{
+    display: grid;
+    width: 100%;
+    min-height: 50px;
+    margin: 0 auto;
+    grid-template-columns:200px auto;
+}
+.logo
+{
+    width:100%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.right
+{
+    width: auto;
+    border-left: 2px solid RGB(244,184,2);
+}
+.right h4
+{
+    line-height: 50px;
+    text-align: center;
+    width: auto;
+}
+nav
+{
+    min-height: 60px;
+}
+.nav-container
+{
+    width: auto;
+    margin: 1em auto;
+}
+.nav-container h2
+{
+    display: block;
+    margin-left: .5em;
+}
+.content .title
+{
+    margin-left: 0.2em;
+}
+.content .title h3
+{
+    text-indent: 2em;
+}
+.content .news
+{
+    margin-top: 0.7em;
+    margin-left: 0.5em;
+
+}
+.content .news p
+{
+    text-indent: 2em;
+    margin-bottom: 0.7em;
+}
+.sohu-home {
+    margin:auto;
+    width: 95%;
+    height: 50px;
+    display: block;
+    padding: .8em .5em;
+    background-image: linear-gradient(#ddd, #bbb);
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3em;
+    box-shadow: 0 1px black inset;
+    text-align: center;
+    color:black;
+}
+.sohu-home:active{
+    box-shadow: .05em .1em .2em rgba(0,0,0,.6) inset;
+    border-color: rgba(0,0,0,.3);
+    background: rgb(238,238,238);
+}
+.footer-nav
+{
+    box-sizing: border-box;
+    margin: 1.5em auto;
+    text-align: center;
+    background: rgb(51,51,51);
+    width: 100%;
+    min-height: 50px;
+    padding-left: 4em;
+}
+.footer-title
+{
+    font-size: 1.2em;
+    color: snow;
+    margin: .65em auto;
+    float: left;
+    width: 15%;
+}
+.copyright
+{
+    margin-top: -1em;
+    align:center;
+}
+.copyright .text
+{
+    height: 2em;
+    text-align: center;
+    font-size:.5em;
+    color: rgb(151,151,151);;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px)
+{
+    .footer-title
+    {
+        font-size: 1.2em;
+        color: snow;
+        margin: .35em auto;
+        float: left;
+        width: 10%;
+    }
+    .footer-nav
+    {
+        box-sizing: border-box;
+        margin: 1.5em auto;
+        text-align: center;
+        background: rgb(51,51,51);
+        width: 100%;
+        min-height: 40px;
+        padding-left: 15em;
+    }
+    .content .title
+    {
+        margin-left: 0.2em;
+        margin-top: -1em;
+    }
+    .content .news
+    {
+        margin-top: 0.7em;
+        margin-left: 0.5em;
+        margin-bottom: 2em;
+    }
+}

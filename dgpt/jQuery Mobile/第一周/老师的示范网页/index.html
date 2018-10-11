@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>搜狐新闻页面</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">
+		body,h1,h2,h3,p{
+			margin: 0;
+			padding: 0;
+		}
+		header{
+			background-color: #fcd007;
+			box-shadow: 0 2px 4px rgba(0,0,0,.3);
+		}
+		h1{
+			font-size: 0.8em;
+			line-height:36px;/*line-heighe与height实现垂直居中*/
+			height: 36px;
+			padding-right: 100px;
+			text-align: center;
+		}
+		/*header a{
+			float: left;
+			display: block;
+			height: 36px;
+			width:100px;
+			border-right: 1px solid #f4b802;
+		}
+		header img{
+			width: 72%;			
+			margin: 4px auto 0 25px;
+		}*/
+		header a{
+			position: absolute;
+			display: block;
+			height: 36px;
+			width:100px;
+			border-right: 1px solid #f4b802;
+		}
+		header img{
+			position: absolute;
+			margin: auto;/*实现居中*/
+			top: 0;
+			bottom: 0;
+			/*left: 0;*/
+			right: 5px;
+			width: 72%;			
+		}
+		article{
+			padding:15px 10px; 
+		}
+		h2{
+			font-size: 1.3em;
+			padding-bottom: 5px;
+			border-bottom: 1px solid #d2d2d2;
+		}
+		h3{
+			font-size: 1em;
+			margin: 10px 0;
+			text-indent: 2em;
+		}
+		p{
+			text-indent: 2em;
+			line-height: 150%;
+		}
+		section a{
+			text-decoration: none;
+			color: black;
+			display: block;
+			text-align: center;
+			font-size: 0.8em;
+			border: 1px solid #d2d2d2;
+			border-radius: 4px;
+			background: #eee;
+			margin: 20px;
+			padding:10px 0; 
+		}
+		nav{
+			text-align: center;
+		}
+		nav a{
+			text-decoration: none;
+			color: white;
+			font-size: 1.2em;
+			display: inline-block;
+			padding:8px 6px; /*实现垂直居中*/
+		}
+		.inf{
+			text-align: center;
+			padding:5px 0;
+			color:gray;
+		}
+		.inf a{
+			text-decoration: none;
+			font-size: 0.6em;
+			color:gray;
+		}
+		.cop{
+			font-size: 0.6em;
+			color:gray;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+ 	<header> 
+	    <a href="#"> 
+	        <img src="images/logo.png" alt="搜狐网" />  
+	    </a>
+	    <h1>新闻频道</h1>    
+  	</header> 
+  	<article> 
+	   	<h2>中国造舰技术进步：大型化、隐形化、动力更强</h2> 
+	   	<div> 
+	    	<h3>中国造舰技术进步</h3> 
+	    	<p>据解放军报报道，3月21日，上海某码头，我国自行研制设计生产的新型导弹驱逐舰——昆明舰，正式加入人民海军战斗序列，延续了我海军新型舰艇持续密集入列的势头。透过游弋在大洋上的中国海军舰艇，我们可以看到中国造舰技术的变化与进步。</p> 
+	    	<h3>平台发展走向大型化</h3> 
+	    	<p>进入21世纪，随着世界高新技术的迅猛发展，我国自行研制和建造的新一代导弹驱逐舰，平台适航性、续航力等总体性能进一步提升，并配置相控阵雷达等多种警戒探测设备，以及远程导弹、区域防空等多种打击武器，信息化水平更高，综合作战能力更强。</p> 
+	    	<h3>动力推进实现复合化</h3> 
+	    	<p>1980年，我海军第一次派出包括6艘导弹驱逐舰在内、共18艘舰船组成的特混编队驶向太平洋，担负我国第一枚运载火箭发射试验护航警戒任务。这是我海军导弹驱逐舰首次登上大洋的&ldquo;舞台&rdquo;，也表明其具备了远洋航行能力。</p> 
+	   	</div> 
+	</article>
+	<footer class="site"> 
+	    <section> 
+	     <a href="#">回到搜狐首页</a> 
+	    </section> 
+	    <nav style="background-color:#333333;"> 
+		    <a href="#">新闻</a> 
+		    <a href="#">财经</a> 
+		    <a href="#">体育</a> 
+		    <a href="#">娱乐</a> 
+		    <a href="#">女人</a> 
+		    <a href="#">导航</a> 
+	    </nav> 
+	    <p class="inf">
+		    <a href="#">搜狐</a> -
+		    <a href="#">用户反馈</a>
+	    </p> 
+	    <p class="cop">Copyright &copy; 2014 Sohu.com</p> 
+	</footer> 
+</body>
+</html>

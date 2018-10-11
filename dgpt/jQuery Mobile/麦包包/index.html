@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="UTF-8">
+    <title>麦包包</title>
+</head>
+<style>
+    body,dl,dd,dt,p,h1,h2,h3,h4,h5,h6{ margin: 0;}
+    ul,ol{margin: 0; list-style: none; padding: 0;}
+    a{ text-decoration: none; }
+    *{ margin: 0; padding: 0; }
+    body{background-color: #E8E8E8;}
+    header
+    {
+        height:auto ;
+        background-color: #DC0005;
+    }
+    header a{
+        position: relative;
+        display: block;
+        height: 36px;
+        width:130px;
+        margin: 0 10px;
+    }
+    header img{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);/*通过设置img为绝对定位，处于垂直和水平50%，然后平移自身宽高的50%*/
+    }
+    #one>div
+    {
+        overflow: hidden;
+        box-sizing: border-box;
+        padding: 5px;
+        margin: 20px 10px;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow:-1px 3px 3px 0px #BABABA;
+    }
+    #one h5
+    {
+        margin: 5px 5px 15px 5px;
+    }
+    #one ul li
+    {
+        display:block;
+        position: relative;
+        float: left;
+        width: 25%;
+    }
+    ul li a:visited{
+        text-decoration: none;
+        color: gray;
+    }
+    .title
+    {
+        text-align: center;
+        font-size: 0.8em;
+        color: gray;
+    }
+    .bot
+    {
+        margin: 10px 0;
+        text-align: center;
+        font-size: 0.8em;
+        color: gray;
+    }
+    .price
+    {
+        color: red;
+    }
+    #first-icon:before
+    {
+        color: white;
+        content: '1';
+        position: absolute;
+        z-index: 50;
+        border-radius: 50%;
+        height: 25px;
+        width: 25px;
+        display: inline-block;
+        background: red;
+        padding-left: 8px;
+        box-sizing: border-box;
+    }
+    #second-icon:before
+    {
+        color: white;
+        content: '2';
+        position: absolute;
+        z-index: 50;
+        border-radius: 50%;
+        height: 25px;
+        width: 25px;
+        display: inline-block;
+        background: red;
+        padding-left: 8px;
+        box-sizing: border-box;
+    }
+    #third-icon:before
+    {
+        color: white;
+        content: '3';
+        position: absolute;
+        z-index: 50;
+        border-radius: 50%;
+        height: 25px;
+        width: 25px;
+        display: inline-block;
+        background: red;
+        padding-left: 8px;
+        box-sizing: border-box;
+    }
+    #fourth-icon:before
+    {
+        color: white;
+        content: '4';
+        position: absolute;
+        z-index: 50;
+        border-radius: 50%;
+        height: 25px;
+        width: 25px;
+        display: inline-block;
+        background: red;
+        padding-left: 8px;
+        box-sizing: border-box;
+    }
+</style>
+<body>
+    <header>
+        <a href="#">
+            <img src="logo.png" alt="麦包包" style="width: 100%"/>
+        </a>
+    </header>
+    <section id="one">
+        <div>
+            <h5>热销风云榜</h5>
+            <ul>
+                <li id="first-icon">
+                    <a href="#">
+                        <img src="01.jpg" alt="" style="width: 100%"/>
+                        <p class="title">西西里系列手提挎包</p>
+                        <p class="bot">价格：<span class="price">188.00</span></p>
+                    </a>
+                </li>
+                <li id="second-icon">
+                    <a href="#">
+                        <img src="02.jpg" alt="" style="width: 100%"/>
+                        <p class="title">圣迭戈系列手提斜跨包</p>
+                        <p class="bot">价格：<span class="price">159.00</span></p>
+                    </a>
+                </li>
+                <li id="third-icon">
+                    <a href="#">
+                        <img src="03.jpg" alt="" style="width: 100%"/>
+                        <p class="title">ANDY系列手提斜挎包</p>
+                        <p class="bot">价格：<span class="price">178.00</span></p>
+                    </a>
+                </li>
+                <li id="fourth-icon">
+                    <a href="#">
+                        <img src="04.jpg" alt="" style="width: 100%"/>
+                        <p class="title">轻名媛系列单肩包</p>
+                        <p class="bot">价格：<span class="price">168.00</span></p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>

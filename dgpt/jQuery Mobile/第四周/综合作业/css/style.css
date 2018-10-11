@@ -1,0 +1,78 @@
+body,dl,dd,dt,p,h1,h2,h3,h4,h5,h6{ margin: 0;}
+ul,ol{margin: 0; list-style: none; padding: 0;}
+a{ text-decoration: none; }
+*{ margin: 0; padding: 0; }
+#container
+{
+    display: none !important;
+}
+#container-mobile
+{
+    width: 100%;
+    display: block;
+}
+body {
+    font-size: 12px;
+    font-family: "宋体",Arial, Helvetica, sans-serif;
+    color: #444342;
+    background:white!important;
+}
+#container-mobile .logo
+{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background: url(../images/bk.png) repeat;
+    border-bottom: 2px solid #97491b;
+    Z-index: 99;
+    overflow: hidden;
+    background-size: 0.1em auto;
+}
+#container-mobile .logo a
+{
+    display: block;
+    float: left;
+    height: 100%;
+    width: 20%;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+#container-mobile .logotext
+{
+    box-sizing: border-box;
+    height: 100%;
+    width: 80%;
+    padding: 0 140px;
+}
+.main-mobile
+ {
+
+ }
+.main-mobile .hd
+{
+    background: #F2F2F2;
+    padding-left: 2.5%;
+    width: 100%;
+    height:4.2em;
+    box-sizing: border-box;
+}
+.main-mobile .hd li
+{
+    width: 117px;
+    height: 37px;
+    line-height: 1.5em;
+    float: left;
+    margin-right: 0.5em;
+    margin-top: 0.6em;
+    font-size: 1.5em;
+    color: #565656;
+    text-align: center;
+    background: url(../images/grey.png) no-repeat center top;
+    background-size: 100% auto;
+}
+.main-mobile #on
+{
+    background: url(../images/org.png) no-repeat center top;
+    background-size: 100% auto;
+    color: #fff;
+}

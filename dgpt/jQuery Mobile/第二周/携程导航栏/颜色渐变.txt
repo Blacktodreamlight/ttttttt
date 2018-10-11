@@ -1,0 +1,6 @@
+¾Æµê
+background: linear-gradient(to right,#fa5956,#fa9b4d);
+»úÆ±
+background:linear-gradient(to right,#4b8fed,#53bced);
+ÂÃÓÎ
+background: linear-gradient(to right,#34c2aa,#6cd557);

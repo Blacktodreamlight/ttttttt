@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>携程旅游</title>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type="text/css">
+    body,dl,dd,dt,p,h1,h2,h3,h4,h5,h6{ margin: 0;}
+    ul,ol{margin: 0; list-style: none; padding: 0;}
+    a{ text-decoration: none; }
+    *{ margin: 0; padding: 0; }
+    #wrapper
+    {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+    header h3
+    {
+        line-height: 50px;
+        color: snow;
+        height: 50px;
+        background-color: rgb(60,175,220);
+        text-align: center;
+    }
+    header img
+    {
+        width: 100%;
+        cursor:pointer;
+    }
+    header
+    {
+
+    }
+    nav>div
+    {
+        height: 100px;
+    }
+    nav a{
+        color: white;
+        display: block;
+        box-sizing: border-box;
+    }
+    a.left
+    {
+        width: 33%;
+        float: left;
+    }
+    nav div div
+    {
+        width: 67%;
+        float: right;
+    }
+    nav div div a{
+        width: 50%;
+        float: left;
+        height: 50px;
+    }
+    #first
+    {
+        background: linear-gradient(to right,#fa5956,#fa9b4d);
+    }
+    #second
+    {
+        background:linear-gradient(to right,#4b8fed,#53bced);
+    }
+    #three
+    {
+        background: linear-gradient(to right,#34c2aa,#6cd557);
+    }
+    .left1
+    {
+        background: url("navIcon.png") no-repeat;
+        background-position: 0px 0px;
+    }
+</style>
+<body>
+<div id="wrapper">
+    <header>
+        <h3>携程旅游</h3>
+        <img src="pic.jpg" alt="" title="携程旅游">
+    </header>
+    <nav>
+        <div id="first">
+            <a href="#" class="left left1">酒店<span></span></a>
+            <div>
+                <a href="#">海外酒店</a>
+                <a href="#">团购</a>
+                <a href="#" class="bot">特价酒店</a>
+                <a href="#">民宿客栈</a>
+            </div>
+        </div>
+
+        <div id="second">
+            <a href="#" class="left left2">机票<span></span></a>
+            <div>
+                <a href="#">火车票</a>
+                <a href="#">汽车票船票</a>
+                <a href="#" class="bot">特价机票</a>
+                <a href="#" class="bot">专车租车</a>
+            </div>
+        </div>
+
+        <div id="three">
+            <a href="#" class="left left3">旅游<span></span></a>
+            <div>
+                <a href="#">门票</a>
+                <a href="#">邮轮旅行</a>
+                <a href="#" class="bot">目的地攻略</a>
+                <a href="#" class="bot">定制旅游</a>
+            </div>
+        </div>
+    </nav>
+</div>
+</body>
+</html>
